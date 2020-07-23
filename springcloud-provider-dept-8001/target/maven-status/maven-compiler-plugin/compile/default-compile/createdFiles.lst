@@ -1,0 +1,5 @@
+com\twq\DeptProvider_8001.class
+com\twq\service\DepetService.class
+com\twq\mapper\DeptMapper.class
+com\twq\controller\DeptController.class
+com\twq\service\impl\DeptServiceImpl.class

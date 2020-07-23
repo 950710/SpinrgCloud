@@ -15,6 +15,8 @@ public class DeptConsumerController {
         //RestTemplate  供我们消费者直接调用
         //（Url，实体：map，Class<T> responseType）
 
+
+
     @Autowired
     private RestTemplate restTemplate;
 

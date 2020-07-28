@@ -13,3 +13,10 @@ eureka:
 info:
   app.name: twq-springcloud
   company.name : twq.com
+
+zuul:
+  routes:
+    mydept.serviceId: springcloud-provider-dept
+    mydept.path: /mydept/**
+  ignored-services: "*"    #忽略原地址继续访问("*"表示不能在使用这个路径访问了，“ignored” 表示隐藏，忽略全部)
+  prefix: /twq  #设置公共的前缀
